@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cifra de César</title>
+</head>
+<body>
+    <h1>Cifra de César</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Criptografar</button>
+    </form>
+</body>
+</html>
